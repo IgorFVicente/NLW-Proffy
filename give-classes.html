@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/partials/forms.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <script src="scripts/addField.js" defe></script>
 </head>
 <body id="page-give-classes">
 
@@ -79,13 +81,13 @@
                         <label for="cost"> Custo da sua hora/aula 
                             <small>(R$)</small>
                         </label>
-                        <input type="cost" id="cost" type="number">
+                        <input name="cost" id="cost" type="number">
                     </div>
                 </fieldset>
 
                 <fieldset id="schedule-items">
                     <legend>Horários disponíveis
-                        <button id="add-time">+ Novo Horário</button>
+                        <button type="button" id="add-time">+ Novo Horário</button>
                     </legend>
 
                     <div class="schedule-item">
