@@ -1,6 +1,6 @@
-
-document.querySelector('#add-time')
-.addEventListener('click', cloneField)
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('#add-time').addEventListener('click', cloneField)
+})
 
 
 function cloneField() {
